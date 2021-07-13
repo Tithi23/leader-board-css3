@@ -1,4 +1,29 @@
- /* fonts  */
+
+nav{
+    display: flex;
+    background-color: #562EFF;
+    justify-content: space-between;
+    text-align: justify;
+}
+nav a{
+    text-decoration: none;
+    padding: 30px;
+    color: #FFFFFF;
+    font-size: 1.5em ;
+}
+nav img{
+    width: 51px;
+    height: 51px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.idea{
+    display: flex;
+    padding-left: 20px;
+    color: #FFFFFF
+}
+/* fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 /* common styles or utilities */
