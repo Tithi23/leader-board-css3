@@ -1,4 +1,4 @@
-
+/* menu only */
 nav{
     display: flex;
     background-color: #562EFF;
@@ -10,10 +10,14 @@ nav a{
     padding: 30px;
     color: #FFFFFF;
     font-size: 1.5em ;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
 }
 nav img{
     width: 51px;
     height: 51px;
+    padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
 
@@ -21,7 +25,11 @@ nav img{
 .idea{
     display: flex;
     padding-left: 20px;
+    margin-left: 225px;
     color: #FFFFFF
+}
+.work{
+    margin-right: 225px;
 }
 /* fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
