@@ -1,3 +1,4 @@
+
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
@@ -81,14 +82,28 @@ hr{
     color: #562EFF;
 }
 /* courses styles */
+.course{
+    margin: 10px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px gainsboro;
+}
 .courses{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap:24px;
+    padding-top: 11px;
 }
 .course .courses-banner img{
     width: 224px;
     height: 104px;
+}
+.courses-title{
+    font-size: 20px;
+}
+.courses-author{
+    font-size: 14px;
+    color: #ED6B4F;
 }
 .courses-info{
     display: flex;
@@ -102,13 +117,16 @@ hr{
     color: #FFC014;
 }
 .fa-star.empty{
-    color: #AEAEAE
+    color: #AEAEAE;
+}
+span{
+    color: #A2A2A2;
 }
 .courses-duration{
     background-color: #FFE4E8;
     border-radius: 15px;
     color: #FF4A60;
-    padding: 10px 20px;
+    padding: 5px 10px;
 }
 /* Media Queries */
 
